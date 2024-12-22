@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-start items-center gap-x-40 ml-6 my-12">
-        <div className="relative w-80 h-24 overflow-hidden">
+        <div className="relative w-52 h-24 overflow-hidden">
           <Image
             src="/images/mainLogo.jpg" // Replace with your image path
             alt="Centered Image"
