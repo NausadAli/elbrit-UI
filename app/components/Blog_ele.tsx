@@ -15,9 +15,10 @@ const Blog_ele: React.FC<BlogProps>  = ({date, text, img, img_alt, heightClass})
       <div className='absolute font-jost px-4 py-1 pl-4 w-20 text-sm font-normal z-20 bg-[#003569] top-5 ml-1.5 rounded-r-full'>
          {date}
       </div>
-      <div className={`relative w-[20dvw] ${heightClass || 'h-[46dvh]'} overflow-hidden rounded-xl ml-4`}>
-         <div className='absolute w-full z-10 top-12 flex justify-center px-8'>
-            <div className='font-jost text-lg font-semibold'>
+      <div className={`relative w-[21dvw] ${heightClass || 'h-[54dvh]'} overflow-hidden rounded-xl ml-4`}>
+         <div className='absolute w-full z-10 top-12 flex justify-center px-5'>
+            <div className='font-jost text-lg font-medium bg-orange-500/40
+             rounded-lg pl-1'>
                {text}
             </div>
          </div>
