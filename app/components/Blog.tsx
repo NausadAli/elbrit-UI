@@ -3,10 +3,10 @@ import Blog_ele from './Blog_ele'
 
 const Blog = () => {
   return (
-    <div className='my-4 '>
+    <div className='my-4 md:h-dvh'>
       {/* Header Section */}
       <div className="text-center my-2">
-        <h3 className="text-[#003569] font-jost font-medium text-sm uppercase my-1">
+        <h3 className="text-[#003569] font-jost font-medium text-sm uppercase my-2">
           Our Blog
         </h3>
         <h1 className="text-[#17414F] font-jost font-semibold text-4xl my-3">Latest News</h1>
