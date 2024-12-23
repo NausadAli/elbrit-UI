@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <main>
 
-      <Navbar/>
+      {/* <Navbar/>
       <Hero/>
       <About />
       <Essentials/>
-      <Blog/>
+      <Blog/> */}
       <Footer />
     </main>
   )

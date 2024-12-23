@@ -6,7 +6,7 @@ const Essentials = () => {
   return (
     <div className='w-10/12 h-[60dvh] m-auto px-8 mb-20'>
       <div className='flex justify-center items-center gap-5 my-2'>
-         <div className='font-jost my-2 w-[40%] '>
+         <div className='font-jost my-2 w-[40%] ml-3'>
             <h3 className='text-[#0003569] uppercase font-medium pl-1'>Ingredients</h3>
             <h1 className='text-[#17414F] font-semibold text-4xl my-3'>Better Ingredients</h1>
             <p className='text-[#727272]'>

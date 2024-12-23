@@ -17,7 +17,7 @@ const Hero_sub: React.FC<HeroProps>= ({img, img_alt, heading, subheading}) => {
          <Image src={img} alt={img_alt} width={70} height={70} />       
          <div className='w-full my-1'>
             <h1 className='text-[#17414F] font-jost text-2xl font-bold'>{heading}</h1>
-            <p className='text-[#727272] font-roboto font-light text-sm'dangerouslySetInnerHTML={{ __html: subheading }} />
+            <p className='text-[#727272] font-jost font-light text-base'dangerouslySetInnerHTML={{ __html: subheading }} />
          </div>
     </section>
   )
