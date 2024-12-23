@@ -5,7 +5,7 @@ import Footer_banner from "./Footer_banner";
 const Footer = () => {
   return (
     <div className="bg-[#17414F] text-white py-6 w-dvw">
-      <div className="w-11/12 m-auto ">
+      <div className="xl:lg:max-w-[80rem] md:max-w-[90vw] m-auto ">
         {/* Footer Banners */}
         <div className="flex flex-col items-center gap-6 lg:flex-row lg:items-center lg:justify-around">
           <Footer_banner 

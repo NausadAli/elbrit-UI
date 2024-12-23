@@ -3,7 +3,7 @@ import About_ele from './About_ele'
 
 const About = () => {
   return (
-    <div className=' w-dvw h-dvh -mt-12'>
+    <div className=' w-dvw h-[80dvh] -mt-12 mb-20'>
     
      <div className='relative bg-[#17414F] w-10/12 h-[28rem] rounded-[5rem] m-auto '>
          <div className='absolute -mt-12 inset-0 '>

@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main>
 
-      <Navbar/>
+      {/* <Navbar/>
       <Hero/>
-      <About />
+      <About /> */}
       <Essentials/>
       <Blog/>
       <Footer />

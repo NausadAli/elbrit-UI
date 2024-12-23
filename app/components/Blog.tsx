@@ -3,7 +3,7 @@ import Blog_ele from './Blog_ele'
 
 const Blog = () => {
   return (
-    <div className='my-4'>
+    <div className='my-4 '>
       {/* Header Section */}
       <div className="text-center my-2">
         <h3 className="text-[#003569] font-jost font-medium text-sm uppercase my-1">
@@ -59,7 +59,7 @@ const Blog = () => {
             heightClass="h-[24dvh]"
           />
         </div>
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-2 sm:hidden md:hidden lg:block">
           <Blog_ele
             date="20 Apr"
             text="The Covid Epidemic 2023 is back"

@@ -10,7 +10,7 @@ type BannerProps = {
 
 const Footer_banner: React.FC<BannerProps> = ({ img, img_alt, heading, subheading }) => {
   return (
-    <div className="bg-[#215D72] text-white flex items-center w-full sm:w-[360px] h-auto sm:h-[100px] rounded-[15px] gap-5 p-3 sm:p-5">
+    <div className="bg-[#215D72] text-white flex items-center w-[80vw] sm:w-[360px] h-auto sm:h-[100px] rounded-[15px] gap-5 p-3 sm:p-5">
       <div className="flex-shrink-0">
         <Image
           className="ml-4 sm:ml-6"
