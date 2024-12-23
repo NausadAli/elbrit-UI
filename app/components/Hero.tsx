@@ -5,15 +5,15 @@ import Hero_sub from "./Hero_sub";
 
 export default function Hero() {
    return (
-      <section className="flex justify-center my-2 h-[95dvh] w-full">
-         <div className="bg-[#E2F5EB] h-dvh w-[98dvw]">
+      <section className="flex justify-center my-2 h-[120dvh] w-full">
+         <div className="bg-[#E2F5EB] h-[145dvh] w-[98dvw]">
             <div>
                <h1 className="font-jost text-center font-bold text-[9dvw] text-[#003569] mt-9">
                   Essential Vitamins
                </h1>
             </div>
 
-            <div className="flex justify-center font-jost">
+            <div className="flex justify-center font-jost gap-8">
                <div className="w-3/12 my-auto">
                   <h2 className="my-2 text-[#727272] font-[300px] text-2xl">
                      Online Medical Supplies
@@ -42,6 +42,11 @@ export default function Hero() {
                   <Hero_sub img="/images/hero-2.png" img_alt="weight loss icon" heading="Weight Loss" subheading="Weight Loss <br/> Find scientifically proven solutions"/>
                   <Hero_sub img="/images/hero-3.png" img_alt="food icon" heading="Functional Foods" subheading="Functional Foods <br/> From protein powers to baby formula"/>
                </div>
+            </div>
+
+            <div>
+               <div></div>
+               <div></div>
             </div>
          </div>
       </section>

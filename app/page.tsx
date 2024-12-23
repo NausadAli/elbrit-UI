@@ -1,21 +1,22 @@
 // import Image from "next/image";
-import Footer from "./components/Footer";
-import Blog from "./components/Blog";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Blog from "./components/Blog";
+import Footer from "./components/Footer";
+import Essentials from "./components/Essentials";
 // const NoSSR = dynamic(() => import('../components/no-ssr'), { ssr: false })
 
 export default function Home() {
   return (
     <main>
-      {/* <NoSSR/> */}
-      
 
-      {/* <Footer/> */}
-      {/* <Hero/> */}
+      <Navbar/>
+      <Hero/>
       <About />
-      {/* <Blog/>
-      <Footer /> */}
+      <Essentials/>
+      <Blog/>
+      <Footer />
     </main>
   )
 }
