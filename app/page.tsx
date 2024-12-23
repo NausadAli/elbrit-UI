@@ -2,6 +2,7 @@
 import Footer from "./components/Footer";
 import Blog from "./components/Blog";
 import Hero from "./components/Hero";
+import About from "./components/About";
 // const NoSSR = dynamic(() => import('../components/no-ssr'), { ssr: false })
 
 export default function Home() {
@@ -11,9 +12,10 @@ export default function Home() {
       
 
       {/* <Footer/> */}
-      <Hero/>
-      <Blog/>
-      <Footer />
+      {/* <Hero/> */}
+      <About />
+      {/* <Blog/>
+      <Footer /> */}
     </main>
   )
 }
