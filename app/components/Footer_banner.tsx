@@ -10,7 +10,7 @@ type BannerProps = {
 
 const Footer_banner: React.FC<BannerProps> = ({ img, img_alt, heading, subheading }) => {
   return (
-    <div className="bg-[#215D72] text-white flex items-center w-[80vw] sm:w-[360px] h-auto sm:h-[100px] rounded-[15px] gap-5 p-3 sm:p-5">
+    <div className="bg-[#215D72] text-white flex items-center w-[80vw] sm:w-[360px] h-auto sm:h-[100px] rounded-[15px] sm:gap-5 gap-2 p-3 sm:p-5">
       <div className="flex-shrink-0">
         <Image
           className="ml-4 sm:ml-6"
@@ -23,8 +23,8 @@ const Footer_banner: React.FC<BannerProps> = ({ img, img_alt, heading, subheadin
         />
       </div>
       <div className="flex flex-col">
-        <h2 className="font-jost text-sm sm:text-lg font-light">{heading}</h2>
-        <h1 className="font-jost text-base sm:text-lg font-medium">{subheading}</h1>
+        <h2 className="font-jost text- md:text-sm sm:text-lg font-light">{heading}</h2>
+        <h1 className="font-jost text-sm md:text-base sm:text-lg font-medium">{subheading}</h1>
       </div>
     </div>
   );

@@ -5,8 +5,8 @@ import Hero_sub from "./Hero_sub";
 export default function Hero() {
    return (
 
-       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[185dvh] sm:h-[180dvh] h-[170dvh] -mb-12">
-         <div className="bg-[#E2F5EB] h-[185dvh] w-full">
+       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[185dvh] sm:h-[180dvh] h-[185dvh] -mb-12">
+         <div className="bg-[#E2F5EB] h-[195dvh] w-full">
             <div>
                <h1 className="font-jost text-[#003569] text-center font-extrabold 2xl:text-[900%] xl:text-[780%] lg:text-[650%] md:text-[485%] sm:text-[385%] text-[10dvw]  mt-9">
                   Essential Vitamins
@@ -28,7 +28,7 @@ export default function Hero() {
                </div>
 
 
-               <div className="relative bg-[#FFE9B5] w-60 h-60 sm:w-72 sm:h-80 rounded-tl-[40%] rounded-br-[40%] flex-shrink-0 ml-10">
+               <div className="relative bg-[#FFE9B5] w-60 h-60 sm:w-72 sm:h-80 rounded-tl-[40%] rounded-br-[40%] flex-shrink-0 md:ml-10">
                   <Image
                      src="/images/hero-image.png"
                      alt="Illustration of essential vitamins"
@@ -41,7 +41,7 @@ export default function Hero() {
                </div>
 
 
-               <div className="md:w-80 lg:w-[27%] lg:ml-10 pl-10">
+               <div className="md:w-80 lg:w-[27%] lg:ml-10 md:pl-10">
                   <Hero_sub
                      img="/images/hero-1.png"
                      img_alt="vitamin-icon"

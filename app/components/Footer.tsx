@@ -40,7 +40,7 @@ const Footer = () => {
               objectPosition="center" 
             />
           </div>
-          <p className="text-center text-sm font-jost lg:text-left lg:text-base">
+          <p className="text-center text-xs font-jost lg:text-left lg:text-base">
             Your health, physical and emotional well-being is important <br />
             to us. We are always by your side and have made it even <br />
             easier for you to find the necessary vitamins.
