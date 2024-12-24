@@ -34,7 +34,7 @@ export default function Hero() {
                      alt="Illustration of essential vitamins"
                      fill={true}
                      objectFit="cover"
-                     priority={true}
+                     // priority={true}
                      loading="lazy"
                      className="absolute scale-135 sm:scale-125 -mt-[2.5rem] md:-mt-[1.5rem] lg:-mt-[6rem]"
                   />
