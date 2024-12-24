@@ -1,5 +1,5 @@
-import React from 'react'
-import Blog_ele from './Blog_ele'
+import React from 'react';
+import Blog_ele from './Blog_ele';
 
 const Blog = () => {
   return (
@@ -22,8 +22,8 @@ const Blog = () => {
             img_alt="news image"
           />
           <Blog_ele
-            date="02 Jan"
-            text="The Covid Epidemic 2022 is back"
+            date="03 Feb"
+            text="New Research on Covid Variants Released"
             img="/images/meds-2.png"
             img_alt="news image"
             heightClass="h-[24dvh]"
@@ -31,29 +31,29 @@ const Blog = () => {
         </div>
         <div className="flex flex-col items-center gap-2">
           <Blog_ele
-            date="20 Jan"
-            text="The Covid Epidemic is back again"
+            date="15 Mar"
+            text="Health Experts Warn of New Outbreaks"
             img="/images/meds-2.png"
             img_alt="news image"
             heightClass="h-[24dvh]"
           />
           <Blog_ele
-            date="20 Mar"
-            text="The Covid Epidemic 2022 is back"
+            date="30 Apr"
+            text="Vaccination Rates Hit New Highs"
             img="/images/meds-1.png"
             img_alt="news image"
           />
         </div>
         <div className="flex flex-col items-center gap-2">
           <Blog_ele
-            date="20 Apr"
-            text="The Covid Epidemic 2023 is back"
+            date="10 May"
+            text="Global Efforts to Contain Covid Intensify"
             img="/images/meds-1.png"
             img_alt="news image"
           />
           <Blog_ele
-            date="20 Apr"
-            text="The Covid Epidemic 2024 is back"
+            date="25 Jun"
+            text="Breakthrough Treatments Announced"
             img="/images/meds-2.png"
             img_alt="news image"
             heightClass="h-[24dvh]"
@@ -61,22 +61,22 @@ const Blog = () => {
         </div>
         <div className="flex flex-col items-center gap-2 sm:hidden md:hidden lg:block">
           <Blog_ele
-            date="20 Apr"
-            text="The Covid Epidemic 2023 is back"
+            date="15 Jul"
+            text="Covid-19: Lessons Learned from 2023"
             img="/images/meds-2.png"
             img_alt="news image"
             heightClass="h-[24dvh]"
           />
           <Blog_ele
-            date="20 Apr"
-            text="The Covid Epidemic 2023 is back"
+            date="01 Aug"
+            text="The Road Ahead: Preparing for Future Pandemics"
             img="/images/meds-1.png"
             img_alt="news image"
           />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;
