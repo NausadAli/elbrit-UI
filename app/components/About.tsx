@@ -3,8 +3,8 @@ import About_ele from "./About_ele";
 
 const About = () => {
   return (
-    <div className="w-full lg:max-h-96 sm:h-[90dvh] mb-20 mt-3">
-      <div className="relative bg-[#17414F] lg:max-w-[77rem] sm:w-10/12 w-11/12 lg:max-h-[26rem] sm:h-dvh h-[215dvh] rounded-3xl m-auto p-4 sm:p-10">
+    <div className="w-full lg:max-h-96 sm:h-[110dvh] mb-20 mt-3">
+      <div className="relative bg-[#17414F] lg:max-w-[77rem] sm:w-10/12 w-11/12 lg:max-h-[26rem] sm:h-[105dvh] h-[215dvh] rounded-3xl m-auto p-4 sm:p-10">
         <div className="absolute grid lg:grid-cols-3 sm:grid-cols-2 gap-4 sm:gap-2 text-center md:-left-2 sm:-mt-[90px] -mt-16 -left-2 ">
           <About_ele
             img="/images/about-1.png"

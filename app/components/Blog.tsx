@@ -3,7 +3,7 @@ import Blog_ele from './Blog_ele';
 
 const Blog = () => {
   return (
-    <div className='my-4 md:h-dvh'>
+    <div className='my-4 md:h-dvh sm:my-10'>
       {/* Header Section */}
       <div className="text-center my-2">
         <h3 className="text-[#003569] font-jost font-medium text-sm uppercase my-2">
@@ -23,7 +23,7 @@ const Blog = () => {
           />
           <Blog_ele
             date="03 Feb"
-            text="New Research on Covid Variants Released"
+            text="New Research on Covid Variants"
             img="/images/meds-2.png"
             img_alt="news image"
             heightClass="h-[24dvh]"

@@ -5,8 +5,8 @@ import Hero_sub from "./Hero_sub";
 export default function Hero() {
    return (
 
-       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[185dvh] sm:h-[180dvh] h-[185dvh] -mb-12">
-         <div className="bg-[#E2F5EB] h-[195dvh] w-full">
+       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[185dvh] sm:h-[191dvh] h-[185dvh] -mb-12">
+         <div className="bg-[#E2F5EB] sm:h-[220dvh] h-[195dvh] w-full">
             <div>
                <h1 className="font-jost text-[#003569] text-center font-extrabold 2xl:text-[900%] xl:text-[780%] lg:text-[650%] md:text-[485%] sm:text-[385%] text-[10dvw]  mt-9">
                   Essential Vitamins
