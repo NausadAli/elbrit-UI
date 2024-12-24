@@ -5,7 +5,7 @@ import Hero_sub from "./Hero_sub";
 export default function Hero() {
    return (
 
-       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[186dvh] sm:h-[191dvh] h-[185dvh] -mb-12">
+       <div className="flex justify-center m-2 lg:h-[120dvh] md:h-[186dvh] sm:h-[191dvh] h-[1030px] -mb-12">
          <div className="bg-[#E2F5EB] lg:max-h-[145dvh] md:h-[200dvh] sm:h-[220dvh] h-[195dvh] w-full">
             <div>
                <h1 className="font-jost text-[#003569] text-center font-extrabold 2xl:text-[900%] xl:text-[780%] lg:text-[650%] md:text-[485%] sm:text-[385%] text-[10dvw]  mt-9">
