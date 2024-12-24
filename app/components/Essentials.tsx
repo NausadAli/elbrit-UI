@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Essentials = () => {
   return (
-    <div className="w-11/12 h-auto md:h-[75dvh] m-auto px-4 sm:px-8">
+    <div className="w-11/12 md:h-[83dvh] h-auto m-auto px-4 sm:px-8">
       {/* First Row */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-5 my-4">
         <div className="font-jost my-2 sm:w-[40%] md:max-w-[30rem] ml-0 md:ml-3 text-center md:text-left">

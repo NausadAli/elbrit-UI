@@ -15,7 +15,7 @@ const Essential_sub: React.FC<EssentialProps> = ({
   subheading,
 }) => {
   return (
-    <div className="bg-[#E2F5EB] rounded-lg mx-2 my-3 px-5 py-5 w-[90%] sm:w-[340px] h-auto sm:h-[200px] shadow-md flex flex-col sm:justify-between relative font-jost">
+    <div className="bg-[#E2F5EB] rounded-lg mx-2 my-3 px-5 py-5 w-[90%] sm:w-[340px] lg:h-[200px] md:h-60 h-auto sm:h-[200px] shadow-md flex flex-col sm:justify-between relative font-jost">
       <div>
         <h1 className="text-[#2D3F59] font-semibold text-lg sm:text-xl">{heading}</h1>
         <p className="text-[#727272] text-sm sm:text-base mt-2 sm:mt-1 leading-relaxed">

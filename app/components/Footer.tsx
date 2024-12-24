@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Logo and Text Section */}
         <div className="flex flex-col items-center gap-4 mt-8 lg:flex-row lg:justify-start lg:items-center lg:gap-x-40 lg:ml-16 lg:my-12 lg:w-[60%]">
-          <div className="relative w-40 h-20 lg:w-52 lg:h-24 overflow-hidden">
+          <div className="relative w-40 h-20 lg:w-[320px] lg:h-24 overflow-hidden">
             <Image
               src="/images/mainLogo.jpg" // Replace with your image path
               alt="Centered Image"
