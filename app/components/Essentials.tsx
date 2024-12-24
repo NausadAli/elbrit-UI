@@ -26,8 +26,8 @@ const Essentials = () => {
           img_alt="hero img"
         />
         <Essential_sub
-          heading="Vitamin C"
-          subheading="Vitamin C as ascorbic acid"
+          heading="Vitamin B3"
+          subheading="Niacinn for healthy gut and skin"
           img="/images/hero-image.png"
           img_alt="hero img"
         />
@@ -36,20 +36,20 @@ const Essentials = () => {
       {/* Second Row */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
         <Essential_sub
-          heading="Vitamin C"
-          subheading="Vitamin C as ascorbic acid"
+          heading="Magnesium"
+          subheading="Boost energy and support muscle function"
           img="/images/hero-image.png"
           img_alt="hero img"
         />
         <Essential_sub
-          heading="Vitamin C"
-          subheading="Vitamin C as ascorbic acid"
+          heading="Hyaluric Acid"
+          subheading="For smooth, supple and soft skin"
           img="/images/hero-image.png"
           img_alt="hero img"
         />
         <Essential_sub
-          heading="Vitamin C"
-          subheading="Vitamin C as ascorbic acid"
+          heading="Lactobacillus"
+          subheading="Invigorate your gut microbiome"
           img="/images/hero-image.png"
           img_alt="hero img"
         />

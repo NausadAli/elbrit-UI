@@ -17,7 +17,7 @@ const Navbar = () => {
               objectPosition="center" 
               />
           </div>
-  <button className=" uppercase bg-[#17414F] py-2 px-6 lg:py-3 lg:pl-8 lg:pr-16 text-base font-semibold text-white rounded-[2rem]">
+  <button type='button' className=" uppercase bg-[#17414F] py-2 px-6 lg:py-3 lg:pl-8 lg:pr-16 text-base font-semibold text-white rounded-[2rem]">
       Call to Actions
   </button>
   </div>
