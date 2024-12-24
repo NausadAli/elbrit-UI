@@ -18,6 +18,7 @@ const About_ele: React.FC<AboutProps> = ({ img, img_alt, heading, subheading }) 
           alt={img_alt}
           width={60}
           height={60}
+          loading="lazy"
           sizes="(max-width: 768px) 60px, (max-width: 1024px) 80px, 80px" 
         />
         <h1 className="font-medium text-xl md:text-2xl my-3">{heading}</h1>

@@ -34,9 +34,10 @@ const Footer = () => {
             <Image
               src="/images/mainLogo.jpg" // Replace with your image path
               alt="Centered Image"
-              layout="fill" // Fill the container
-              objectFit="cover" // Ensure it doesn't overflow
-              objectPosition="center" // Focus on the center
+              layout="fill" 
+              loading="lazy"
+              objectFit="cover" 
+              objectPosition="center" 
             />
           </div>
           <p className="text-center text-sm font-jost lg:text-left lg:text-base">

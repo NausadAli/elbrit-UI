@@ -12,6 +12,7 @@ const Navbar = () => {
               src="/images/mainLogo.jpg" 
               alt="Centered Image"
               layout="fill" 
+              loading='lazy'
               objectFit="cover" 
               objectPosition="center" 
               />

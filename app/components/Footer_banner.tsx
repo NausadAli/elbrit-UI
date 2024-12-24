@@ -18,6 +18,7 @@ const Footer_banner: React.FC<BannerProps> = ({ img, img_alt, heading, subheadin
           alt={img_alt}
           width={50}
           height={50}
+          loading='lazy'
           objectFit="cover"
         />
       </div>

@@ -25,6 +25,7 @@ const Blog_ele: React.FC<BlogProps>  = ({date, text, img, img_alt, heightClass})
          <Image src={img} 
             alt={img_alt}
             layout='fill'
+            loading='lazy'
             objectFit='cover'
             objectPosition= 'center'
          />

@@ -26,7 +26,7 @@ const Essential_sub: React.FC<EssentialProps> = ({
         See More
       </button>
       <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 w-16 h-16 sm:w-20 sm:h-20">
-        <Image src={img} alt={img_alt} layout="fill" objectFit="contain" />
+        <Image src={img} alt={img_alt} layout="fill" objectFit="contain" loading="lazy"/>
       </div>
     </div>
   );

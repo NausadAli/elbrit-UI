@@ -58,6 +58,7 @@ const Essentials = () => {
             src="/images/shape.png"
             alt="shape"
             layout="fill"
+            loading="lazy"
             objectFit="contain"
           />
         </div>
