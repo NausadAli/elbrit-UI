@@ -1,6 +1,6 @@
 // import Image from "next/image";
 
-import dynamic from "next/dynamic";
+// import dynamic from "next/dynamic";
 import Navbar from "./components/Navbar";
 // const HeroContent = dynamic(()=> import('./components/Hero'), {
 //   ssr: false
